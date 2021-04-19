@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 25px;
   height: 25px;
+  outline-width: 0;
 }
 
 input {
@@ -27,5 +28,6 @@ input {
   background-color: rgb(170, 21, 21);
   border: none;
   height: 25px;
+  outline-width: 0;
   border-bottom: 2px solid rgb(94, 196, 230);
 }
