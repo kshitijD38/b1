@@ -19,7 +19,7 @@ export default function App() {
             <h2>Start editing to see some magic happen!</h2>
           </div>
         ) : (
-          <h1>Click above button to Start</h1>
+          <h1>Click above button to Start.</h1>
         )}
       </div>
     </>
