@@ -2,7 +2,6 @@
   display: flex;
   height: 350px;
   flex-direction: column;
-  background-color: white;
   padding: 1rem;
   border-radius: 20px;
   margin-top: 16px;
@@ -30,4 +29,25 @@ input {
   height: 25px;
   outline-width: 0;
   border-bottom: 2px solid rgb(94, 196, 230);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* background: #f1f1f1; */
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
